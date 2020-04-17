@@ -1,6 +1,9 @@
-<h1>Meat for my mouth hole!</h1>
+<div class="container-md" style="margin: 20px;">
+  <div class="col align-self-center" style="align-content: center;">
+<h1 style="color: white;">Meat for my mouth hole!</h1>
+<br>
 
-<h2>Burgers that have not been in my mouth!</h2>
+<h2 style="color: white;">Burgers that have not been in my mouth!</h2>
 
 <ul>
   {{#each burgers}}
@@ -10,7 +13,7 @@
   {{/each}}
 </ul>
 
-<h2>Burgers that have been in my mouth!</h2>
+<h2 style="color: white;">Burgers that have been in my mouth!</h2>
 
 <ul>
   {{#each burgers}}
@@ -21,21 +24,22 @@
   {{/each}}
 </ul>
 
-<h2>Add a delicious burger to one of the lists!</h2>
+<h2 style="color: white;">Add a delicious burger to one of the lists!</h2>
 <form class="create-burger">
 
   <div class="form-group">
-    <label for="burger_name">Burger Name:</label>
+    <label for="burger_name" style="color: white;">Burger Name:</label>
     <input type="text" id="burger_name" name="name">
   </div>
 
-  <div class="form-group">
-    <label for="devoured">Devoured?</label><br>
-    <input type="radio" name="devoured" value="1" checked> Devoured!<br>
-    <input type="radio" name="devoured" value="0"> Not Devoured. 
+  <div class="form-group" style="color: white;">
+    <label for="devoured" style="color: white;">Devoured?</label><br>
+    <input type="radio" name="devoured" value="1" checked style="color: white;"> Devoured!<br>
+    <input type="radio" name="devoured" value="0" style="color: white;"> Not Devoured. 
   </div>
 
   <button type="submit" class"create-burger" data-burger_name="{{this.burger_name}}" data-devoured="{{this.devoured}}">Add Burger</button>
 </form>
-
+</div>
+</div>
 
