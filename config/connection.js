@@ -7,7 +7,7 @@ var connection = mysql.createConnection({
     /*----------------------------------
     SET password below for testing!!!
     ----------------------------------*/
-    password: "ladle6\"Triad",
+    password: "",
     database: "burgers_db"
   });
   
