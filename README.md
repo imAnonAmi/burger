@@ -16,7 +16,7 @@ It's a burger logger !?
 This simple app allows the user to create a variety of tasty burgers, and log whether or not they have been eaten, or are yet to be eaten. All burgers can be moved back and forth from "Devoured" and "Un-Devoured" states, and as a bonus, there's a Delete Burger feature as well.
 
 ## Installation
-Repository at: https://github.com/imAnonAmi/Employee-Tracker
+Repository at: https://github.com/imAnonAmi/burger
 
 Deployed at: https://tranquil-beyond-08862.herokuapp.com/
 
